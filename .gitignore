@@ -1,3 +1,18 @@
-.env
 .fleet/
+*.log
 .fleet-deploy.log
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+out/
+
+# --- Go ---
+*.test
+vendor/
